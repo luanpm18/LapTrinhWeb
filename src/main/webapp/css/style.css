@@ -1,0 +1,35 @@
+h2 {
+    position: relative;
+    left: 100px;
+}
+.form-group {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.form-lable {
+    min-width: 100px;
+    font-size: 16px;
+}
+
+.form-input {
+    width: 300px;
+    border-radius: 5px;
+    border-width: 1px;
+}
+
+.form-input:focus {
+    background-color: blueviolet;
+}
+
+.button-xn {
+    margin-left: 180px;
+    transition: all 0.3s ease;
+}
+
+.button-xn:hover {
+    color: aquamarine;
+    background-color: darkgreen;
+    transform: translate(10px, 10px);
+}
