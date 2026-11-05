@@ -18,3 +18,14 @@
 <label>Last Name:</label>
 <span>${user.lastName}</span><br>
 
+<p>To enter another email address, click on the Back
+  button in your browser or the Return button shown
+  below.</p>
+
+<form action="" method="get">
+  <input type="hidden" name="action" value="join">
+  <input type="submit" value="Return">
+</form>
+
+</body>
+</html>
