@@ -2,6 +2,7 @@ package test.tomcat;
 
 import java.io.*;
 
+import businessClass.User;
 import jakarta.servlet.http.*;
 import jakarta.servlet.*;
 

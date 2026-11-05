@@ -1,4 +1,4 @@
-package test.tomcat;
+package businessClass;
 
 import java.io.Serializable;
 
