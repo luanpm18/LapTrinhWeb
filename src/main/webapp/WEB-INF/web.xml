@@ -3,4 +3,27 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd"
          version="6.0">
+
+
+    <!-- Khai báo Servlet -->
+    <servlet>
+        <servlet-name>EmailListServlet</servlet-name>
+        <servlet-class>test.tomcat.EmailListServlet</servlet-class>
+    </servlet>
+
+    <!-- Ánh xạ đường dẫn emailList vào Servlet -->
+    <servlet-mapping>
+        <servlet-name>EmailListServlet</servlet-name>
+        <url-pattern>/emailList</url-pattern>
+    </servlet-mapping>
+
+    <session-config>
+        <session-timeout>30</session-timeout>
+    </session-config>
+
+    <welcome-file-list>
+        <welcome-file>index.html</welcome-file>
+        <welcome-file>index.jsp</welcome-file>
+    </welcome-file-list>
+
 </web-app>

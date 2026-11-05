@@ -15,12 +15,6 @@ h2 {
 
 .form-input {
     width: 300px;
-    border-radius: 5px;
-    border-width: 1px;
-}
-
-.form-input:focus {
-    background-color: blueviolet;
 }
 
 .button-xn {
